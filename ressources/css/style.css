@@ -1,0 +1,59 @@
+.row{
+  width: 1140px;
+  height: auto;
+}
+h2{
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+}
+h2::after{
+  content: "";
+  background-color: #38ada9;
+  width: 70px;
+  height: 2px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+p{
+  text-align: center;
+  font-size: 12px;
+}
+.form-group{
+  border-radius: 10px;
+  border: 2px solid #38ada9;
+}
+.choix{
+  border:2px solid #38ada9;
+  border-radius: 5px;
+  width:211px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  text-transform: uppercase;
+  background-color: #38ada9;
+  color:black;
+}
+.choix .champ:hover{
+  color: #38ada9 !important;
+}
+.champ:hover{
+  color: red !important;
+}
+
+
+.btn-default {
+  background-color: transparent !important;
+  color: black !important;
+  border-radius: 5px !important;
+  border: 2px solid #38ada9 !important;
+}
+
+.btn-default:hover {
+  transition: 1s;
+  background-color: #38ada9 !important;
+  border-color: #38ada9 !important;
+}
