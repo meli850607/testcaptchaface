@@ -16,41 +16,43 @@
   <section>
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6">
           <h2>contact</h2>
 
-          <p>Pour plus d'informations,
-            <br>contactez-nous.</p>
+          <h6>Pour plus d'informations,
+            <br>contactez-nous.</h6>
 
         </div>
       </div>
-        <div class="col-md-12">
+        <div class="col-md-6">
           <form>
             <div class="row">
 
-              <div class="form-group">
-                <input class="form-control" type="text" id="yourname" placeholder="Entrez votre nom" required>
+              <div class="form-group col-md-3">
+                <input class="form-control" style="border:2px solid #38ada9" type="text" id="yourname" placeholder="Entrez votre nom" required>
 
               </div>
-              <div class="form-group">
-                <input class="form-control" type="text" id="yoursurname" placeholder="Entrez votre prénom" required>
+              <div class="form-group col-md-3">
+                <input class="form-control" style="border:2px solid #38ada9" type="text" id="yoursurname" placeholder="Entrez votre prénom" required>
+                </div>
+              </div>
+              <div class="row">
+
+
+              <div class="form-group col-md-3">
+                <input type="email" class="form-control" style="border:2px solid #38ada9" id="youremail" placeholder="Entrez votre Email" required>
 
               </div>
-              <div class="form-group">
-                <input type="email" class="form-control" id="youremail" placeholder="Entrez votre Email" required>
 
+
+              <div class="form-group col-md-3">
+                <input type="text" class="form-control" style="border:2px solid #38ada9" id="yoursubject" placeholder="Entrez votre sujet" required>
+                </div>
               </div>
-            </div>
 
-            <div class="row">
 
-              <div class="form-group">
-                <input type="text" class="form-control" id="yoursubject" placeholder="Entrez votre sujet" required>
-
-              </div>
-            </div>
-
-            Qui souhaitez-vous contacter: <select class="choix" name="services">
+            <p>Qui souhaitez-vous contacter:</p>
+              <select class="choix" name="services">
                     <option class="champ" value="services-clients">Services Clients</option>
                     <option class="champ" value="direction">Direction</option>
                     <option class="champ" value="secretariat">secrétariat</option>
@@ -61,14 +63,17 @@
 
             <div class="row">
 
-              <div class="form-group">
-                <textarea class="form-control" id="yourmessage" rows="6" placeholder="Entrez votre message" required></textarea>
+              <div class="form-group col-md-6">
+                <textarea class="form-control" style="border:2px solid #38ada9" id="yourmessage" rows="6" placeholder="Entrez votre message" required></textarea>
               </div>
             </div>
+            <div class="btncaptcha">
             <div class="g-recaptcha" data-sitekey="6LdrfE8UAAAAAFq9DfH6rIqTAT4m3geQp6oN-YLm"></div>
             <button type="submit" class="btn btn-default center-block">Envoyer</button>
+            </div>
           </div>
           </form>
+
         </div>
   </section>
   <!--fin formulaire-->

@@ -1,3 +1,7 @@
+.container{
+  text-align: center;
+  margin-left: 650px !important;
+}
 .row{
   width: 1140px;
   height: auto;
@@ -6,11 +10,12 @@ h2{
   text-transform: uppercase;
   text-align: center;
   margin-top: 20px;
+  margin-left: 20px;
 }
 h2::after{
   content: "";
   background-color: #38ada9;
-  width: 70px;
+  width: 75px;
   height: 2px;
   display: block;
   margin: 0 auto;
@@ -18,14 +23,22 @@ h2::after{
   margin-bottom: 20px;
 
 }
+h6{
+  text-align: center;
+  font-size:20px;
+  margin-left: 20px;
+}
 p{
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
 }
-.form-group{
+/*.form-group{
+
   border-radius: 10px;
   border: 2px solid #38ada9;
-}
+
+}*/
+
 .choix{
   border:2px solid #38ada9;
   border-radius: 5px;
@@ -36,6 +49,7 @@ p{
   text-transform: uppercase;
   background-color: #38ada9;
   color:black;
+  text-align: center;
 }
 .choix .champ:hover{
   color: #38ada9 !important;
@@ -44,16 +58,21 @@ p{
   color: red !important;
 }
 
-
 .btn-default {
   background-color: transparent !important;
   color: black !important;
   border-radius: 5px !important;
   border: 2px solid #38ada9 !important;
+  margin-bottom: 30px;
+  margin-left: 400px !important;
+  margin-top: -60px;
 }
 
 .btn-default:hover {
   transition: 1s;
   background-color: #38ada9 !important;
   border-color: #38ada9 !important;
+}
+.btncaptcha{
+  display: block;
 }
